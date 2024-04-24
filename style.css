@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.icon{
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 100px;
+}
+
+.icon i{
+    width: 200px;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 2px 2px 2px 2px  rgb(117, 110, 110);
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 50px;
+    color: rgb(1, 196, 255);
+    cursor: pointer;
+    animation: animate 3s linear infinite;
+}
