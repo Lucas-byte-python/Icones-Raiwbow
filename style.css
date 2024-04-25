@@ -27,4 +27,16 @@ body {
     color: rgb(1, 196, 255);
     cursor: pointer;
     animation: animate 3s linear infinite;
+    text-shadow: 0 0 50px #0072ff,0 0 100px #0072ff,0 0 150px #0072ff,
+    0 0 200px #0072ff;
+    animation-delay: 0.3s;
+}
+
+@keyframes animate {
+    from {
+        filter: hue-rotate(0deg);
+    }
+    to {
+        filter: hue-rotate(360deg);
+    }
 }
